@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+
+
+.wrap{
+    width: 900px;
+    margin:0 auto;
+    position: relative;
+
+    
+}
+
+.header{
+    background-image: url('http://pic.pimg.tw/annwei/1370098313-1462753925_l.jpg');
+    height: 300px;
+    font-size: 30px;
+    color: rgb(221, 236, 155);
+    
+}
+
+.header h1{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.selectowns{
+    width: 180px;
+    height: 30px;
+}
+
+.townsselect{
+    padding-left: 20px;
+}
+
+.content{
+    padding-bottom: 50px;
+    background-color: beige;
+    min-height:500px;
+}
+
+.content::after { 
+    content: "";
+    display: block; 
+    clear: both;
+  }
+
+.footer{
+    background-color: rgb(17, 77, 112);
+    height: 80px;
+    width: 900px;
+    color:white; 
+      
+}
+
+.footer p{
+    text-align: center; 
+    padding-top: 33px;
+}
+.box{
+    padding-top: 100px;
+    
+}
+.list li{
+    background-color: rgba(255, 255, 255, 0.993);
+    width: 400px;
+    height: 445px;
+    float:left;
+    margin-left: 33px;
+    margin-top: 40px;
+
+    
+}
+.content h2{
+    font-size: 28px;
+    color: rgb(35, 89, 133);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.list li img{
+    width: 400px;
+    height: 300px;
+}
+
+.list li p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.name{
+    color: blue;
+    font-size: 18px;
+}
+
+.clearfix{
+    clear:both;
+   
+}
+
+.hots-area{
+    width: 50%;
+    height: 70px;
+    color: white;
+    background-color: rgb(201, 182, 139);
+    margin: 0 auto;
+    text-align: center;
+    padding-top:10px ;
+}
+
+.hots-zone{
+    margin-top: 10px;
+}
+
+.hots-zone button{
+    width: 80px;
+    height: 30px;
+    background-color: yellow;
+    margin-left: 10px;
+}
