@@ -1,4 +1,4 @@
-let dataUrl = "https://data.kcg.gov.tw/api/action/datastore_search?resource_id=92290ee5-6e61-456f-80c0-249eae2fcc97";
+let dataUrl = "https://raw.githubusercontent.com/hexschool/KCGTravel/master/datastore_search.json";
 let dataOrigin; //取回的資料
 let dataRecords; //dataOrigin 中的旅遊資料
 let selecTowns = document.querySelector(".selectowns");
